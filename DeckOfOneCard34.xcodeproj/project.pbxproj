@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C95D08CB249958D900D39DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D08CA249958D900D39DE3 /* AppDelegate.swift */; };
+		C95D08CD249958D900D39DE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D08CC249958D900D39DE3 /* SceneDelegate.swift */; };
+		C95D08CF249958D900D39DE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D08CE249958D900D39DE3 /* ViewController.swift */; };
+		C95D08D2249958D900D39DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95D08D0249958D900D39DE3 /* Main.storyboard */; };
+		C95D08D4249958DF00D39DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95D08D3249958DF00D39DE3 /* Assets.xcassets */; };
+		C95D08D7249958DF00D39DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95D08D5249958DF00D39DE3 /* LaunchScreen.storyboard */; };
+		C95D08E824995CEB00D39DE3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D08E724995CEB00D39DE3 /* Card.swift */; };
+		C95D08EA2499607300D39DE3 /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D08E92499607300D39DE3 /* CardController.swift */; };
+		C95D08EC249962B500D39DE3 /* CardError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D08EB249962B500D39DE3 /* CardError.swift */; };
+		C95D08EE24996CA600D39DE3 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D08ED24996CA600D39DE3 /* UIViewControllerExtension.swift */; };
+		C95D08F024996DFA00D39DE3 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D08EF24996DFA00D39DE3 /* CardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C95D08C7249958D900D39DE3 /* DeckOfOneCard34.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckOfOneCard34.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95D08CA249958D900D39DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C95D08CC249958D900D39DE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C95D08CE249958D900D39DE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C95D08D1249958D900D39DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C95D08D3249958DF00D39DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C95D08D6249958DF00D39DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C95D08D8249958DF00D39DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95D08E724995CEB00D39DE3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C95D08E92499607300D39DE3 /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		C95D08EB249962B500D39DE3 /* CardError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardError.swift; sourceTree = "<group>"; };
+		C95D08ED24996CA600D39DE3 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		C95D08EF24996DFA00D39DE3 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C95D08C4249958D900D39DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C95D08BE249958D900D39DE3 = {
+			isa = PBXGroup;
+			children = (
+				C95D08C9249958D900D39DE3 /* DeckOfOneCard34 */,
+				C95D08C8249958D900D39DE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C95D08C8249958D900D39DE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C95D08C7249958D900D39DE3 /* DeckOfOneCard34.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C95D08C9249958D900D39DE3 /* DeckOfOneCard34 */ = {
+			isa = PBXGroup;
+			children = (
+				C95D08E224995A6300D39DE3 /* Controllers */,
+				C95D08E124995A5F00D39DE3 /* Views */,
+				C95D08E024995A5800D39DE3 /* Models */,
+				C95D08DF24995A4D00D39DE3 /* Helpers */,
+				C95D08DE24995A4300D39DE3 /* Resources */,
+				C95D08CE249958D900D39DE3 /* ViewController.swift */,
+			);
+			path = DeckOfOneCard34;
+			sourceTree = "<group>";
+		};
+		C95D08DE24995A4300D39DE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C95D08CA249958D900D39DE3 /* AppDelegate.swift */,
+				C95D08CC249958D900D39DE3 /* SceneDelegate.swift */,
+				C95D08D3249958DF00D39DE3 /* Assets.xcassets */,
+				C95D08D5249958DF00D39DE3 /* LaunchScreen.storyboard */,
+				C95D08D8249958DF00D39DE3 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C95D08DF24995A4D00D39DE3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C95D08EB249962B500D39DE3 /* CardError.swift */,
+				C95D08ED24996CA600D39DE3 /* UIViewControllerExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C95D08E024995A5800D39DE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C95D08E724995CEB00D39DE3 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C95D08E124995A5F00D39DE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C95D08D0249958D900D39DE3 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C95D08E224995A6300D39DE3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C95D08E424995A6E00D39DE3 /* View Controllers  */,
+				C95D08E324995A6800D39DE3 /* Model Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C95D08E324995A6800D39DE3 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C95D08E92499607300D39DE3 /* CardController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		C95D08E424995A6E00D39DE3 /* View Controllers  */ = {
+			isa = PBXGroup;
+			children = (
+				C95D08EF24996DFA00D39DE3 /* CardViewController.swift */,
+			);
+			path = "View Controllers ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C95D08C6249958D900D39DE3 /* DeckOfOneCard34 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95D08DB249958DF00D39DE3 /* Build configuration list for PBXNativeTarget "DeckOfOneCard34" */;
+			buildPhases = (
+				C95D08C3249958D900D39DE3 /* Sources */,
+				C95D08C4249958D900D39DE3 /* Frameworks */,
+				C95D08C5249958D900D39DE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeckOfOneCard34;
+			productName = DeckOfOneCard34;
+			productReference = C95D08C7249958D900D39DE3 /* DeckOfOneCard34.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C95D08BF249958D900D39DE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Kristin Samuels ";
+				TargetAttributes = {
+					C95D08C6249958D900D39DE3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = C95D08C2249958D900D39DE3 /* Build configuration list for PBXProject "DeckOfOneCard34" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C95D08BE249958D900D39DE3;
+			productRefGroup = C95D08C8249958D900D39DE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C95D08C6249958D900D39DE3 /* DeckOfOneCard34 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C95D08C5249958D900D39DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95D08D7249958DF00D39DE3 /* LaunchScreen.storyboard in Resources */,
+				C95D08D4249958DF00D39DE3 /* Assets.xcassets in Resources */,
+				C95D08D2249958D900D39DE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C95D08C3249958D900D39DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95D08EA2499607300D39DE3 /* CardController.swift in Sources */,
+				C95D08CF249958D900D39DE3 /* ViewController.swift in Sources */,
+				C95D08EC249962B500D39DE3 /* CardError.swift in Sources */,
+				C95D08CB249958D900D39DE3 /* AppDelegate.swift in Sources */,
+				C95D08F024996DFA00D39DE3 /* CardViewController.swift in Sources */,
+				C95D08CD249958D900D39DE3 /* SceneDelegate.swift in Sources */,
+				C95D08EE24996CA600D39DE3 /* UIViewControllerExtension.swift in Sources */,
+				C95D08E824995CEB00D39DE3 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C95D08D0249958D900D39DE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95D08D1249958D900D39DE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C95D08D5249958DF00D39DE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95D08D6249958DF00D39DE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C95D08D9249958DF00D39DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C95D08DA249958DF00D39DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C95D08DC249958DF00D39DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAP7J6U3Y3;
+				INFOPLIST_FILE = "$(SRCROOT)/DeckOfOneCard34/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KNS.DeckOfOneCard34;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C95D08DD249958DF00D39DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAP7J6U3Y3;
+				INFOPLIST_FILE = "$(SRCROOT)/DeckOfOneCard34/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KNS.DeckOfOneCard34;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C95D08C2249958D900D39DE3 /* Build configuration list for PBXProject "DeckOfOneCard34" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95D08D9249958DF00D39DE3 /* Debug */,
+				C95D08DA249958DF00D39DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95D08DB249958DF00D39DE3 /* Build configuration list for PBXNativeTarget "DeckOfOneCard34" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95D08DC249958DF00D39DE3 /* Debug */,
+				C95D08DD249958DF00D39DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C95D08BF249958D900D39DE3 /* Project object */;
+}
